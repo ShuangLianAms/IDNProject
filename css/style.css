@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+ul li{
+  list-style-type: none;
+}
+.logo{
+  width:60px;
+  height:60px;
+  border-radius: 50%;
+  display: block;
+}
+header{
+  display: flex;
+  align-items: center;
+  background: #ddd;
+  padding: 10px;
+}
+nav{
+  flex: 1;
+  background: #efefef;
+  margin: 0 20px;
+  padding: 5px 10px;
+}
+nav a{
+  margin-right: 30px;
+}
+main{
+  background: #ddd;
+  display: flex;
+  padding: 20px;
+  margin-top: 10px;
+  height: 86vh;
+}
+main .menu{
+  height: 40vh;
+  background-color: #efefef;
+  margin-bottom: 10px;
+  padding: 20px;
+  overflow-y: auto;
+}
+main aside{
+  width: 300px;
+  margin-right: 30px;
+}
+main .des{
+  background-color: #efefef;
+  height: 40vh;
+  padding: 20px;
+  overflow-y: scroll;
+}
+main .description{
+  background-color: #efefef;
+  padding: 20px;
+  height: 12vh;
+}
+main .mainright{
+  flex: 1;
+}
+.main1{
+  background-color: #efefef;
+  padding: 20px;
+  height: 67vh;
+  margin-top: 2vh;
+  overflow-y: hidden;
+}
+select,input{
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.main2{
+  text-align: center;
+}
+.mcontent{
+  height:54vh;
+  overflow-y: scroll;
+}
+.main2 h2{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-weight: normal;
+  font-size: 18px;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+.btn a{
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  text-align: center;
+  background: #ddd;
+}
+.box3 .ch{
+	width: 80px;
+	margin: 0 20px;
+}
+.box3 h2{
+	margin-top: 8px;
+	margin-bottom: 8px
+}
+.navMenuBox {
+    
+    overflow: auto;
+}
+
+/*去掉默认样式*/
+.navMenuBox ul,
+.navMenuBox li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navMenu>li>a {
+    display: block;
+    line-height: 40px;
+    font-size: 17px;
+    text-decoration: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.subMenu>li.active>a,
+.subMenu>li>a:hover {
+    color: #FFF;
+    background: #999;
+}
+
+.subMenu>li>a {
+    display: block;
+    line-height: 36px;
+    font-size: 16px;
+    text-decoration: none;
+/*    color: #ABB1B7;*/
+}
+
+ul.subMenu {
+    margin-top: 8px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+.subMenu>li>a {
+    padding-left: 20px;
+}
+.navMenu i{
+    font-style: normal;
+    margin-left: 5px;
+}
+.box{
+	display: none;
+}
+.hide{
+	display: none;
+}
+#select1{
+  height: auto;
+  line-height: 1.8;
+  height: 200px;
+}
+#select1 option,#select3 option{
+  padding: 5px 10px;
+}
+.result li{
+  margin-top: 5px;
+  border-bottom: 1px dashed #999;
+  padding-bottom: 6px;
+}
+.jia{
+  font-size: 40px;
+  cursor: pointer;
+}
+.mb0{
+  margin-bottom: 0 !important;
+}
+.role input{
+  width: 110px;
+}
+.jia-role input{
+  margin-left: 5px;
+}
